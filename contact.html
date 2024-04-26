@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="styles_contactus.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Have feedback or a query? Feel free to reach out to us!</p>
+    
+        <h2>Give Feedback</h2>
+        <form action="feedback.php" method="post">
+            <label for="feedback_name">Name</label>
+            <input type="text" id="feedback_name" name="feedback_name" required>
+            
+            <label for="feedback_email">Email</label>
+            <input type="email" id="feedback_email" name="feedback_email" required>
+            
+            <label for="feedback_message">Message</label>
+            <textarea id="feedback_message" name="feedback_message" required></textarea>
+            
+            <input type="submit" value="Submit Feedback">
+        </form>
+        
+        <h2>Submit Query</h2>
+        <form action="query.php" method="post">
+            <label for="query_name">Name</label>
+            <input type="text" id="query_name" name="query_name" required>
+            
+            <label for="query_email">Email</label>
+            <input type="email" id="query_email" name="query_email" required>
+            
+            <label for="query_message">Message</label>
+            <textarea id="query_message" name="query_message" required></textarea>
+            
+            <input type="submit" value="Submit Query">
+        </form>
+        
+        <h2>Customer Care</h2>
+        <p>For immediate assistance, please call: <strong>773-645-1494</strong></p>
+        <p>You can also reach us via email at: <strong>shamilcf0404@gmail.com</strong></p>
+    </div>
+</body>
+</html>
